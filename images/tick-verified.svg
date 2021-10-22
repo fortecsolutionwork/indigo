@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.202" height="32.202" viewBox="0 0 32.202 32.202">
+  <defs>
+    <filter id="Ellipse_133" x="0" y="0" width="32.202" height="32.202" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="tick-verified" transform="translate(-145.473 -545.142)">
+    <g transform="matrix(1, 0, 0, 1, 145.47, 545.14)" filter="url(#Ellipse_133)">
+      <ellipse id="Ellipse_133-2" data-name="Ellipse 133" cx="9.101" cy="9.101" rx="9.101" ry="9.101" transform="translate(7 5)" fill="#8aac9f" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <path id="tick-verified-2" data-name="tick-verified" d="M-1114.23,268.441l2.874,2.874,6.508-6.508" transform="translate(1271.016 291.561)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

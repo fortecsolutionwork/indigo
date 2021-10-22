@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.533" height="19.533" viewBox="0 0 19.533 19.533">
+  <defs>
+    <filter id="Ellipse_283" x="0" y="0" width="19.533" height="19.533" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="badge_tick" transform="translate(-16.549 -8.418)">
+    <g transform="matrix(1, 0, 0, 1, 16.55, 8.42)" filter="url(#Ellipse_283)">
+      <ellipse id="Ellipse_283-2" data-name="Ellipse 283" cx="2.766" cy="2.766" rx="2.766" ry="2.766" transform="translate(7 5)" fill="#8aac9f" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

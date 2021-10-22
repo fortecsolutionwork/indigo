@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.4" height="14.4" viewBox="0 0 14.4 14.4">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Background" width="14.4" height="14.4" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="plus" clip-path="url(#clip-path)">
+    <path id="plus-addmore" d="M8.4,4.8H4.8V8.4H3.6V4.8H0V3.6H3.6V0H4.8V3.6H8.4V4.8Z" transform="translate(3 3)" fill="#fff"/>
+  </g>
+</svg>

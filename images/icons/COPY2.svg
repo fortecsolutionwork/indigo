@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8.462" height="13.731" viewBox="0 0 8.462 13.731">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Shape" d="M8.09,2.068l-5.026,4.8,5.026,4.8a1.173,1.173,0,0,1,0,1.713,1.312,1.312,0,0,1-1.795,0L.372,7.722a1.173,1.173,0,0,1,0-1.713L6.295.355a1.312,1.312,0,0,1,1.795,0A1.173,1.173,0,0,1,8.09,2.068Z" transform="translate(0 8.462) rotate(-90)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="COPY2" transform="translate(0 13.731) rotate(-90)" clip-path="url(#clip-path)">
+    <g id="Style_Fill_Dark" data-name="Style/Fill/Dark" transform="translate(-3.635 -7.192)">
+      <rect id="Background" width="21" height="22" fill="#0d0e15"/>
+    </g>
+  </g>
+</svg>

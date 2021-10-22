@@ -1,0 +1,5 @@
+<svg id="credit-icon-3" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <rect id="Area" width="60" height="60" fill="none"/>
+  <path id="Background" d="M0,25.47a18.027,18.027,0,0,0,18,18V0L5.28,12.75A17.785,17.785,0,0,0,0,25.47Z" transform="translate(11.996 8.49)" fill="none"/>
+  <path id="Border" d="M24,57.931A24,24,0,0,1,7.016,16.98L24,0l16.98,16.98A23.985,23.985,0,0,1,24,57.931ZM24,8.489,11.277,21.241A18,18,0,0,0,24,51.959Z" transform="translate(6)" fill="#304659"/>
+</svg>

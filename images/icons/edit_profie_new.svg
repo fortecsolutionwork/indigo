@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.089" height="15.45" viewBox="0 0 15.089 15.45">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Shape" d="M.348,15.45h0a.343.343,0,0,1-.267-.13.365.365,0,0,1-.072-.308l.775-3.584,3.068,3.158-3.421.853A.344.344,0,0,1,.348,15.45Zm4.335-1.719h0L1.615,10.573,9.384,2.578l3.069,3.159L4.683,13.73Zm8.57-8.815h0L10.184,1.757,11.495.408a1.331,1.331,0,0,1,1.919,0l1.369,1.408a1.1,1.1,0,0,1,0,1.525L13.253,4.915Z" transform="translate(0 0)"/>
+    </clipPath>
+  </defs>
+  <g id="edit_profie_new" transform="translate(0 -0.01)">
+    <path id="Shape-2" data-name="Shape" d="M.348,15.45h0a.343.343,0,0,1-.267-.13.365.365,0,0,1-.072-.308l.775-3.584,3.068,3.158-3.421.853A.344.344,0,0,1,.348,15.45Zm4.335-1.719h0L1.615,10.573,9.384,2.578l3.069,3.159L4.683,13.73Zm8.57-8.815h0L10.184,1.757,11.495.408a1.331,1.331,0,0,1,1.919,0l1.369,1.408a1.1,1.1,0,0,1,0,1.525L13.253,4.915Z" transform="translate(0 0.01)"/>
+    <g id="Icons_Hamburger" data-name="Icons/Hamburger" transform="translate(0 0.01)" clip-path="url(#clip-path)">
+      <g id="Tint" transform="translate(-8.594 -8.603)">
+        <rect id="Background" width="32.658" height="34.377" fill="#5d5d5d"/>
+      </g>
+    </g>
+  </g>
+</svg>

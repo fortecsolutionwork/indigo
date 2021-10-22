@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.4" height="14.4" viewBox="0 0 14.4 14.4">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Background" width="14.4" height="14.4" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="bx-caret-up" clip-path="url(#clip-path)">
+    <path id="arrow-up" d="M0,4.8H8.4L4.2,0Z" transform="translate(3 4.2)" fill="#495057"/>
+  </g>
+</svg>

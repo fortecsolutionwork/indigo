@@ -1,0 +1,15 @@
+<svg id="mic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M4.154,22.615a1.384,1.384,0,1,1,0-2.769H6.462V18.8A7.848,7.848,0,0,1,0,11.077V9.231a1.384,1.384,0,1,1,2.769,0v1.846a5.077,5.077,0,0,0,10.154,0V9.231a1.384,1.384,0,1,1,2.769,0v1.846A7.848,7.848,0,0,1,9.231,18.8v1.045h2.308a1.384,1.384,0,1,1,0,2.769Zm0-11.539V3.692a3.692,3.692,0,0,1,7.385,0v7.385a3.692,3.692,0,1,1-7.385,0Z" transform="translate(0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="Icons_Mic_background" data-name="Icons/Mic background" width="24" height="24" fill="rgba(0,0,0,0)"/>
+  <path id="Combined_Shape-2" data-name="Combined Shape" d="M4.154,22.615a1.384,1.384,0,1,1,0-2.769H6.462V18.8A7.848,7.848,0,0,1,0,11.077V9.231a1.384,1.384,0,1,1,2.769,0v1.846a5.077,5.077,0,0,0,10.154,0V9.231a1.384,1.384,0,1,1,2.769,0v1.846A7.848,7.848,0,0,1,9.231,18.8v1.045h2.308a1.384,1.384,0,1,1,0,2.769Zm0-11.539V3.692a3.692,3.692,0,0,1,7.385,0v7.385a3.692,3.692,0,1,1-7.385,0Z" transform="translate(4.154 0.923)" fill="none"/>
+  <g id="Group_2328" data-name="Group 2328" transform="translate(4.154 0.923)" clip-path="url(#clip-path)">
+    <g id="_Color" data-name="↳ 🎨Color" transform="translate(-4.154 -0.923)">
+      <rect id="_Color_background" data-name="↳ 🎨Color background" width="24" height="24" fill="rgba(0,0,0,0)"/>
+      <rect id="Color" width="24" height="24" fill="#8a8a8f"/>
+    </g>
+  </g>
+</svg>

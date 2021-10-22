@@ -1,0 +1,11 @@
+<svg id="arrow-up" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12" viewBox="0 0 12 12">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Background" width="12" height="12" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="Background-2" data-name="Background" width="12" height="12" fill="none"/>
+  <g id="arrow-up-2" data-name="arrow-up" clip-path="url(#clip-path)">
+    <path id="Shape" d="M4.46,7.92h-1v-6L.71,4.67,0,3.96,3.96,0,7.92,3.96l-.71.71L4.46,1.92v6Z" transform="translate(2.04 2.08)" fill="rgba(73,80,87,0.3)"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="tick_message_new" transform="translate(-549 -227)">
+    <g id="mkCriu" transform="translate(555.134 234.245)">
+      <g id="Group_2781" data-name="Group 2781">
+        <path id="Path_5625" data-name="Path 5625" d="M-118.42,581.523c.063-.078.095-.125.134-.165q2.78-2.788,5.561-5.574a.891.891,0,0,1,1.222-.144,4.126,4.126,0,0,1,.629.628.877.877,0,0,1-.03,1.112c-.042.051-.089.1-.136.144l-6.872,6.887a.625.625,0,0,1-1.016,0l-3.251-3.258a.923.923,0,0,1,0-1.448c.113-.114.225-.229.341-.34a.9.9,0,0,1,1.3.009c.667.661,1.329,1.328,1.991,1.994A1.8,1.8,0,0,1-118.42,581.523Z" transform="translate(122.527 -575.458)" fill="#a2a2a2"/>
+      </g>
+    </g>
+    <g id="Ellipse_112" data-name="Ellipse 112" transform="translate(549 227)" fill="none" stroke="#a2a2a2" stroke-width="1">
+      <circle cx="12" cy="12" r="12" stroke="none"/>
+      <circle cx="12" cy="12" r="11.5" fill="none"/>
+    </g>
+  </g>
+</svg>

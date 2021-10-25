@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,332 +6,438 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Credit Form</title>
     <!-- favicon -->
-    <link rel="icon" href="images/favicon.svg" type="image/gif" sizes="16x16">
+    <link rel="icon" href="images/favicon.svg" type="image/gif" sizes="16x16" />
     <!-- Latest compiled and minified CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-<!-- slick slider -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-<!-- fontawesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-<link rel="stylesheet" href="font/stylesheet.css">
-<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-<link rel="stylesheet" href="css/nice-select.css">
-<link rel="stylesheet" href="css/example-styles.css">
-<!-- custom css -->
-    <link rel="stylesheet" href="css/style.css">
-<!-- responsive css -->
-<link rel="stylesheet" href="css/responsive.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!-- slick slider -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="font/stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="css/nice-select.css" />
+    <link rel="stylesheet" href="css/example-styles.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
-
     <!-- preloader -->
     <div class="preloader">
-        <div id="mdiv">
-            <div class="cdiv">
-                <div class="rot"></div>
-                <h4 class="lh"><div class="circle pulse blue">
-                    <img class="loader-img" src="images/new_logo.svg" alt="">
-                </div></h4>
+      <div id="mdiv">
+        <div class="cdiv">
+          <div class="rot"></div>
+          <h4 class="lh">
+            <div class="circle pulse blue">
+              <img class="loader-img" src="images/new_logo.svg" alt="" />
             </div>
+          </h4>
         </div>
+      </div>
     </div>
     <!-- preloader -->
 
     <!-- industry option section start -->
 
-
-    <main class="personal-details-brand form_main_parent credit_form_second" id="dashboard">
-
-        <!-- header -->
+    <main
+      class="personal-details-brand form_main_parent credit_form_second"
+      id="dashboard"
+    >
+      <!-- header -->
 
       <div class="main-banner-wrrapper-dashboard">
-        <div class="main_banner_new about_us_banner sustainability_details_banner">
+        <div
+          class="main_banner_new about_us_banner sustainability_details_banner"
+        >
           <div class="header">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="Nav">
-                          <div class="humburger-menu">
-                              
-                              <span class="humburger-span"></span>
-                              <span class="humburger-span"></span>
-                              <span class="humburger-span"></span>
-                              
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="Nav">
+                    <div class="humburger-menu">
+                      <span class="humburger-span"></span>
+                      <span class="humburger-span"></span>
+                      <span class="humburger-span"></span>
+                    </div>
+                    <ul class="Navbar">
+                      <li>
+                        <div class="profile-details">
+                          <div class="inner">
+                            <div class="left-img">
+                              <img src="images/profile-img-new.png" />
+                            </div>
+                            <div class="right-side-profle">
+                              <div class="name">
+                                <span>Alice P</span>
+                                <span>
+                                  <img src="images/edit-profile-icon.svg" />
+                                </span>
+                              </div>
+                              <div class="email">alicep@gmail.com</div>
+                            </div>
                           </div>
-                            <ul class="Navbar">
-                                <li>
-                                    <div class="profile-details">
-                                        <div class="inner">
-                                            <div class="left-img">
-                                                <img src="images/profile-img-new.png">
-                                            </div>
-                                            <div class="right-side-profle">
-                                                <div class="name"> <span>Alice P</span> <span> <img src="images/edit-profile-icon.svg"> </span></div>
-                                                <div class="email">alicep@gmail.com</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="active"><a href="#">Profile</a></li>
-                                <li><a href="#">Dashboard</a></li>
-                                <li><a href="#">Messages <small>1</small></a></li>
-                                <li><a href="#">Wishlist</a></li>
-                                <li><a href="#">Suppliers</a></li>
-                                <li><a href="#">Subscription</a></li>
-                                <!--<li><a href="http://protocolsolution.com/indigo2/product-detail.html">Plans</a></li>-->
-                                <!-- <li  class="sign__btn" ><a id="signIn" href="http://protocolsolution.com/indigo2/signin.html">Sign Up & Login</a></li> -->
-                              
-                                <li class="bottom-buttons"><p></p>
-                                    <p>
-                                        <a href="#">Help</a>
-                                    <a href="#">Log out</a>
-                                    </p>
-                                
-                              </li>
-                            </ul>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <a class="main_logo" href="http://protocolsolution.com/indigo2/"> <img src="images/new_logo.svg" alt=""> Projekt Indigo</a>
-                    </div>
-                    <div class="col-md-4 text-right">
-                        <div class="manufacturer_brand_btn">
-                            <a href="http://protocolsolution.com/indigo2/signin.html">Manufacturer login</a>
-                            <a href="http://protocolsolution.com/indigo2/signin.html">Brand login</a>
-                        </div>  
-                    </div>
+                      </li>
+                      <li class="active"><a href="#">Profile</a></li>
+                      <li><a href="#">Dashboard</a></li>
+                      <li>
+                        <a href="#">Messages <small>1</small></a>
+                      </li>
+                      <li><a href="#">Wishlist</a></li>
+                      <li><a href="#">Suppliers</a></li>
+                      <li><a href="#">Subscription</a></li>
+                      <!--<li><a href="product-detail.html">Plans</a></li>-->
+                      <!-- <li  class="sign__btn" ><a id="signIn" href="signin.html">Sign Up & Login</a></li> -->
+
+                      <li class="bottom-buttons">
+                        <p></p>
+                        <p>
+                          <a href="#">Help</a>
+                          <a href="#">Log out</a>
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
+                <div class="col-md-4">
+                  <a class="main_logo" href="index.html">
+                    <img src="images/new_logo.svg" alt="" /> Projekt Indigo</a
+                  >
+                </div>
+                <div class="col-md-4 text-right">
+                  <div class="manufacturer_brand_btn">
+                    <a href="signin.html">Manufacturer login</a>
+                    <a href="signin.html">Brand login</a>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-          
-      
-
-      
-        </div>
-
       </div>
-
-
     </main>
 
-    <section class="industry_option_section detail_form credit_form credit_form2 credit_form3">
-        <img src="images/registar-option-bg7.png" alt="" class="bg_img">
-        <div class="container-fluid">
-           <div class="row content">
-               <div class="col-md-5">
-                   <h1 class="for_desktop" style="max-width: initial;">Management  <br> & owner   <br> details</h1>
-                   <h1 class="for_mobile" style="max-width: initial;">Digital Sourcing Ecosystem</h1>
-                   <p class="for_mobile">For all Service providers to connect with <span>Brand, Manufacturers and Suppliers</span> </p>
-                   <h5 class="poweredby"><span>Powered by </span> <span>Projekt Indigo Financial Services <sup>&trade;</sup> </span></h5>
-               </div>
-               <div class="col-md-7">
-                <div class="registar_form">
-                    <div class="form">
-                        <h5>Please tell us about yourself</h5>
-                        <div class="form_heading">
-                            <p>3 of 5</p>
-                        </div>
-                        <div class="sub_heading">
-                            <p>Business owners (For proprietorship/Partnership/LLP/Pvt. <br> Ltd. Company)</p>
-                        </div>
-                       <div class="checkbox_wrraper">
-                        <ul class="checkBox_group">
-                            <li><span class="custom_checkbox"><input type="checkbox"><label>Single owner</label></span></li>
-                            <li><span class="custom_checkbox"><input type="checkbox"><label>Multiple owners</label></span></li>
-                          </ul>
-                          <p class="addmore_tooltip">
-                            <img src="images/icons/plus.svg" alt="">
-                            <span> Add more</span>
-                          </p>
-                       </div>
-                        <h3 class="title">Owner details</h3>
-                        <div class="input_group">
-                            <div>
-                                <label for="">First name</label>
-                                <div class="input_wrapper">
-                                    <input type="text" name="" placeholder="EFGH" id="">
-                                    <img src="images/icons/input_check.svg" alt="">
-                                </div>
-                            </div>
-                            <div>
-                                <label for="">Last name</label>
-                                <div class="input_wrapper">
-                                    <input type="number" name="" placeholder="762762398798876" id="">
-                                    <img src="images/icons/input_check.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="input_group">
-                            <div>
-                                <label for="">Aadhar No.</label>
-                                <div class="input_wrapper">
-                                    <input type="number" name="" placeholder="1234 5678 9101" id="">
-                                    <img src="images/icons/input_check.svg" alt="">
-                                </div>
-                            </div>
-                            <div>
-                                <label for="">PAN</label>
-                                <div class="input_wrapper">
-                                    <input  type="text" placeholder="BWHPA0312E" name="">
-                                    <img src="images/icons/input_check.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="input_group">
-                            <div>
-                                <label for="">Voter ID</label>
-                                <div class="input_wrapper">
-                                    <input type="text" name="" placeholder="1234567890" id="">
-                                    <img src="images/icons/input_check.svg" alt="">
-                                </div>
-                            </div>
-                            <div>
-                                <label for="">Highest degree of qualification</label>
-                                <div class="input_wrapper p-0">
-                                    <select name="" class="form-control nice_custom_select" >
-                                        <option selected value="">Select...</option>
-                                        <option value="">Illiterate</option>
-                                        <option value="">Matriculate</option>
-                                        <option value="">Completed school</option>
-                                        <option value="">Co-operative Society</option>
-                                        <option value="">Graduate</option>
-                                        <option value="">Post graduate</option>
-                                       
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="input_group">
-                            <div>
-                                <label for="">Experience (in years)</label>
-                                <div class="input_wrapper">
-                                    <input type="number" name="" placeholder="5" id="">
-                                    <img src="images/icons/input_check.svg" alt="">
-                                </div>
-                            </div>
-                            <div>
-                                <label for="">Ownership percentage</label>
-                                <div class="input_wrapper">
-                                    <input  type="number" placeholder="50" name="">
-                                    <img src="images/icons/input_check.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sub_heading">
-                            <p>Business owners (For proprietorship/Partnership/LLP/Pvt. <br> Ltd. Company)</p>
-                        </div>
-                       <div class="checkbox_wrraper">
-                        <ul class="checkBox_group">
-                            <li><span class="custom_checkbox"><input type="checkbox"><label>Single owner</label></span></li>
-                            <li><span class="custom_checkbox"><input type="checkbox"><label>Multiple owners</label></span></li>
-                          </ul>
-                          <p class="addmore_tooltip">
-                            <img src="images/icons/plus.svg" alt="">
-                            <span> Add more</span>
-                          </p>
-                       </div>
-
-                       <div class="input_group">
-                        <div>
-                            <label for="">First name</label>
-                            <div class="input_wrapper">
-                                <input type="text" name="" placeholder="EFGH" id="">
-                                <img src="images/icons/input_check.svg" alt="">
-                            </div>
-                        </div>
-                        <div>
-                            <label for="">Last name</label>
-                            <div class="input_wrapper">
-                                <input type="number" name="" placeholder="762762398798876" id="">
-                                <img src="images/icons/input_check.svg" alt="">
-                            </div>
-                        </div>
-                        </div>
-                        <div class="input_group">
-                            <div>
-                                <label for="">DIN</label>
-                                <div class="input_wrapper">
-                                    <input type="number" name="" placeholder="1234567890" id="">
-                                    <img src="images/icons/input_check.svg" alt="">
-                                </div>
-                            </div>
-                            <div>
-                                <label for="">Work experience</label>
-                                <div class="input_wrapper">
-                                    <input  type="number" placeholder="5" name="">
-                                    <img src="images/icons/input_check.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div style="padding-bottom: 100px;" class="input_group last-child mb-5">
-                            <div>
-                                <label for="">Designation</label>
-                                <div class="input_wrapper">
-                                    <input type="text" name="" placeholder="Project manager" id="">
-                                    <img src="images/icons/input_check.svg" alt="">
-                                </div>
-                            </div>
-                            <div>
-                                <label for="">Address</label>
-                                <div class="input_wrapper">
-                                    <input  type="text" placeholder="#334, 12th st. Sowcarpet, Chennai" name="">
-                                    <img src="images/icons/input_check.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="bottom_buttons">
-                            <a href="#" class="submit_btn yellow_btn">Back</a>
-                            <a href="#" class="submit_btn yellow_btn">Next</a>
-                        </div>
-                    </div>
-                    
+    <section
+      class="
+        industry_option_section
+        detail_form
+        credit_form credit_form2 credit_form3
+      "
+    >
+      <img src="images/registar-option-bg7.png" alt="" class="bg_img" />
+      <div class="container-fluid">
+        <div class="row content">
+          <div class="col-md-5">
+            <h1 class="for_desktop" style="max-width: initial">
+              Management <br />
+              & owner <br />
+              details
+            </h1>
+            <h1 class="for_mobile" style="max-width: initial">
+              Digital Sourcing Ecosystem
+            </h1>
+            <p class="for_mobile">
+              For all Service providers to connect with
+              <span>Brand, Manufacturers and Suppliers</span>
+            </p>
+            <h5 class="poweredby">
+              <span>Powered by </span>
+              <span>Projekt Indigo Financial Services <sup>&trade;</sup> </span>
+            </h5>
+          </div>
+          <div class="col-md-7">
+            <div class="registar_form">
+              <div class="form">
+                <h5>Please tell us about yourself</h5>
+                <div class="form_heading">
+                  <p>3 of 5</p>
                 </div>
-               </div>
-           </div>
+                <div class="sub_heading">
+                  <p>
+                    Business owners (For proprietorship/Partnership/LLP/Pvt.
+                    <br />
+                    Ltd. Company)
+                  </p>
+                </div>
+                <div class="checkbox_wrraper">
+                  <ul class="checkBox_group">
+                    <li>
+                      <span class="custom_checkbox"
+                        ><input type="checkbox" /><label
+                          >Single owner</label
+                        ></span
+                      >
+                    </li>
+                    <li>
+                      <span class="custom_checkbox"
+                        ><input type="checkbox" /><label
+                          >Multiple owners</label
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                  <p class="addmore_tooltip">
+                    <img src="images/icons/plus.svg" alt="" />
+                    <span> Add more</span>
+                  </p>
+                </div>
+                <h3 class="title">Owner details</h3>
+                <div class="input_group">
+                  <div>
+                    <label for="">First name</label>
+                    <div class="input_wrapper">
+                      <input type="text" name="" placeholder="EFGH" id="" />
+                      <img src="images/icons/input_check.svg" alt="" />
+                    </div>
+                  </div>
+                  <div>
+                    <label for="">Last name</label>
+                    <div class="input_wrapper">
+                      <input
+                        type="number"
+                        name=""
+                        placeholder="762762398798876"
+                        id=""
+                      />
+                      <img src="images/icons/input_check.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="input_group">
+                  <div>
+                    <label for="">Aadhar No.</label>
+                    <div class="input_wrapper">
+                      <input
+                        type="number"
+                        name=""
+                        placeholder="1234 5678 9101"
+                        id=""
+                      />
+                      <img src="images/icons/input_check.svg" alt="" />
+                    </div>
+                  </div>
+                  <div>
+                    <label for="">PAN</label>
+                    <div class="input_wrapper">
+                      <input type="text" placeholder="BWHPA0312E" name="" />
+                      <img src="images/icons/input_check.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="input_group">
+                  <div>
+                    <label for="">Voter ID</label>
+                    <div class="input_wrapper">
+                      <input
+                        type="text"
+                        name=""
+                        placeholder="1234567890"
+                        id=""
+                      />
+                      <img src="images/icons/input_check.svg" alt="" />
+                    </div>
+                  </div>
+                  <div>
+                    <label for="">Highest degree of qualification</label>
+                    <div class="input_wrapper p-0">
+                      <select name="" class="form-control nice_custom_select">
+                        <option selected value="">Select...</option>
+                        <option value="">Illiterate</option>
+                        <option value="">Matriculate</option>
+                        <option value="">Completed school</option>
+                        <option value="">Co-operative Society</option>
+                        <option value="">Graduate</option>
+                        <option value="">Post graduate</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="input_group">
+                  <div>
+                    <label for="">Experience (in years)</label>
+                    <div class="input_wrapper">
+                      <input type="number" name="" placeholder="5" id="" />
+                      <img src="images/icons/input_check.svg" alt="" />
+                    </div>
+                  </div>
+                  <div>
+                    <label for="">Ownership percentage</label>
+                    <div class="input_wrapper">
+                      <input type="number" placeholder="50" name="" />
+                      <img src="images/icons/input_check.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="sub_heading">
+                  <p>
+                    Business owners (For proprietorship/Partnership/LLP/Pvt.
+                    <br />
+                    Ltd. Company)
+                  </p>
+                </div>
+                <div class="checkbox_wrraper">
+                  <ul class="checkBox_group">
+                    <li>
+                      <span class="custom_checkbox"
+                        ><input type="checkbox" /><label
+                          >Single owner</label
+                        ></span
+                      >
+                    </li>
+                    <li>
+                      <span class="custom_checkbox"
+                        ><input type="checkbox" /><label
+                          >Multiple owners</label
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                  <p class="addmore_tooltip">
+                    <img src="images/icons/plus.svg" alt="" />
+                    <span> Add more</span>
+                  </p>
+                </div>
+
+                <div class="input_group">
+                  <div>
+                    <label for="">First name</label>
+                    <div class="input_wrapper">
+                      <input type="text" name="" placeholder="EFGH" id="" />
+                      <img src="images/icons/input_check.svg" alt="" />
+                    </div>
+                  </div>
+                  <div>
+                    <label for="">Last name</label>
+                    <div class="input_wrapper">
+                      <input
+                        type="number"
+                        name=""
+                        placeholder="762762398798876"
+                        id=""
+                      />
+                      <img src="images/icons/input_check.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="input_group">
+                  <div>
+                    <label for="">DIN</label>
+                    <div class="input_wrapper">
+                      <input
+                        type="number"
+                        name=""
+                        placeholder="1234567890"
+                        id=""
+                      />
+                      <img src="images/icons/input_check.svg" alt="" />
+                    </div>
+                  </div>
+                  <div>
+                    <label for="">Work experience</label>
+                    <div class="input_wrapper">
+                      <input type="number" placeholder="5" name="" />
+                      <img src="images/icons/input_check.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  style="padding-bottom: 100px"
+                  class="input_group last-child mb-5"
+                >
+                  <div>
+                    <label for="">Designation</label>
+                    <div class="input_wrapper">
+                      <input
+                        type="text"
+                        name=""
+                        placeholder="Project manager"
+                        id=""
+                      />
+                      <img src="images/icons/input_check.svg" alt="" />
+                    </div>
+                  </div>
+                  <div>
+                    <label for="">Address</label>
+                    <div class="input_wrapper">
+                      <input
+                        type="text"
+                        placeholder="#334, 12th st. Sowcarpet, Chennai"
+                        name=""
+                      />
+                      <img src="images/icons/input_check.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bottom_buttons">
+                  <a href="#" class="submit_btn yellow_btn">Back</a>
+                  <a href="#" class="submit_btn yellow_btn">Next</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- industry option section end -->
 
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <!-- slick min js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.multi-select.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-<!-- jquery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- slick min js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-
-<!-- custom js -->
-<script src="js/custom.js"></script>
-<script src="js/jquery.nice-select.min.js"></script>
-<script src="js/jquery.multi-select.js"></script>
-<!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-<script>
-$(document).ready(function() {
-  $('.nice_custom_select').niceSelect();
-});
-</script>
-<!-- multi select -->
-<script type="text/javascript">
-    $(document).ready(function() {
-    $('#select_checkbox1').multiSelect();
-    $('#select_checkbox2').multiSelect();
-});
-</script>
-
-<!-- date picker -->
-<script>
-    $( function() {
-      $( "#datepicker" ).datepicker();
-    } );
+    <script>
+      $(document).ready(function () {
+        $(".nice_custom_select").niceSelect();
+      });
+    </script>
+    <!-- multi select -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#select_checkbox1").multiSelect();
+        $("#select_checkbox2").multiSelect();
+      });
     </script>
 
+    <!-- date picker -->
+    <script>
+      $(function () {
+        $("#datepicker").datepicker();
+      });
+    </script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

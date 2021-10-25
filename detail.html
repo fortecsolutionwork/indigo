@@ -54,19 +54,19 @@
                                 <div class="bookmark"><a href="#"><img class="bookmark-icon" src="images/bookmark-white.svg" /></a></div>
                             </div>
                             <ul class="Navbar">
-                                <li class="active"><a href="http://protocolsolution.com/indigo2/">Home</a></li>
-                                <li><a href="http://protocolsolution.com/indigo2/about.html">About Us</a></li>
-                                <li><a href="http://protocolsolution.com/indigo2/explore.html">How It Works</a></li>
-                                <li><a href="http://protocolsolution.com/indigo2/artisanal.html">Experiences</a></li>
-                                <li><a href="http://protocolsolution.com/indigo2/detail.html">Sustainability</a></li>
-                                <li><a href="http://protocolsolution.com/indigo2/blog.html">Stories</a></li>
-                                <li><a href="http://protocolsolution.com/indigo2/product-detail.html">Plans</a></li>
-                                <!-- <li  class="sign__btn" ><a id="signIn" href="http://protocolsolution.com/indigo2/signin.html">Sign Up & Login</a></li> -->
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="explore.html">How It Works</a></li>
+                                <li><a href="artisanal.html">Experiences</a></li>
+                                <li><a href="detail.html">Sustainability</a></li>
+                                <li><a href="blog.html">Stories</a></li>
+                                <li><a href="product-detail.html">Plans</a></li>
+                                <!-- <li  class="sign__btn" ><a id="signIn" href="signin.html">Sign Up & Login</a></li> -->
                               
                                 <li class="bottom-buttons"><p>Sign up</p>
                                     <p>
-                                        <a href="http://protocolsolution.com/indigo2/registar-as-brand.html">Brand</a>
-                                    <a href="http://protocolsolution.com/indigo2/registar-as-manufacturer.html">Manufacturer</a>
+                                        <a href="registar-as-brand.html">Brand</a>
+                                    <a href="registar-as-manufacturer.html">Manufacturer</a>
                                     </p>
                                 
                               </li>
@@ -74,12 +74,12 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <a class="main_logo" href="http://protocolsolution.com/indigo2/"> <img src="images/logo.svg" alt=""> Projekt Indigo</a>
+                        <a class="main_logo" href="index.html"> <img src="images/logo.svg" alt=""> Projekt Indigo</a>
                     </div>
                     <div class="col-md-4 text-right">
                         <div class="manufacturer_brand_btn">
-                            <a href="http://protocolsolution.com/indigo2/signin.html">Manufacturer login</a>
-                            <a href="http://protocolsolution.com/indigo2/signin.html">Brand login</a>
+                            <a href="signin.html">Manufacturer login</a>
+                            <a href="signin.html">Brand login</a>
                         </div>  
                     </div>
                 </div>
@@ -91,7 +91,7 @@
           <div class="banner ">
               <div id="bannerWrapper" class="banner-wrapper">
                 <div class="bg-img_about bg-img_banner">
-                  <img src="images/sustailabilty_new.png" alt="">
+                  <img class="lazy" src="images/sustailabilty_new.png" alt="">
                 </div>
                   <div class="container-fluid">
                       <div class="banner-inner row">
@@ -123,7 +123,7 @@
                     </div>
                     <div class="col-md-6">
                       <div class="thumb">
-                          <img src="images/plans2.jpg" alt="">
+                          <img class="lazy" src="images/plans2.jpg" alt="">
                       </div>
                   </div>
                   </div>
@@ -134,7 +134,7 @@
                 <div class="row row--chnage">
                     <div class="col-md-6">
                         <div class="thumb">
-                            <img src="images/17.jpg" alt="">
+                            <img class="lazy" src="images/17.jpg" alt="">
                         </div>
                         <div class="content">
                           <h2 class="heading-inner">Are we <br> over-producing?</h2> 
@@ -157,7 +157,7 @@
          
             <div class="row">
                 <div class="col-md-12">
-                    <img src="images/sustaiability_123.png" alt="">                  
+                    <img class="lazy" src="images/sustaiability_123.png" alt="">                  
                 </div>
             </div>
             </div>
@@ -212,7 +212,7 @@
                                           </div>
                                         </li>
                                         <li class="l-footer02-nav-item">
-                                          <h2 class="l-footer02-nav-title js-dropdown-footer c-btn c-btn-hover01"> <a href="http://protocolsolution.com/indigo2/terms-and-conditions.html">Terms & condition</a><span class="c-btn-bg-bottom"></span><i class="fa fa-chevron-down"></i></h2>
+                                          <h2 class="l-footer02-nav-title js-dropdown-footer c-btn c-btn-hover01"> <a href="terms-and-conditions.html">Terms & condition</a><span class="c-btn-bg-bottom"></span><i class="fa fa-chevron-down"></i></h2>
                                           <div class="l-footer02-nav-panel js-dropdown-footer-menu" style="display: none;">
                                             <ul class="l-footer02-nav-panel-inner">
                                               
@@ -478,6 +478,17 @@
 
 <!-- custom js -->
 <script src="js/custom.js"></script>
+
+<script src="js/lazyload.js"></script>
+
+<script>
+       $(function() {
+      $("img.lazy").lazyload({
+       'load':function(){console.log('load')},
+      'appear':function(){console.log('image loaded')}
+            });
+        });
+</script>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
